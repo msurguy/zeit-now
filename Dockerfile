@@ -11,7 +11,7 @@ LABEL "com.github.actions.icon"="upload-cloud"
 LABEL "com.github.actions.color"="black"
 COPY LICENSE README.md THIRD_PARTY_NOTICE.md /
 
-RUN yarn global add now
+RUN yarn global add now@16.1.2
 
 COPY entrypoint.sh /entrypoint.sh
 
